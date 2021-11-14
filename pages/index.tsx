@@ -14,21 +14,16 @@ export const Index = ({ posts }: IndexProps): JSX.Element => {
   return (
     <Layout>
       <h1>
-        We are a group of teens that aim to redefine the help you get for mental
-        health through{' '}
+        We are <b className="gradient">Minds On</b>, a youth nonprofit
+        with{' '}
         <a>
-          <u>community engagement</u>
-        </a>{' '}
-        and{' '}
-        <a>
-          <u>centralization</u>
+          <u>a vision</u>
         </a>
         .
       </h1>
       <h3>
-        In our polarized world, stress is omnipresent—and yet finding solutions
-        is more difficult than ever. We are <b>Minds On</b>, a youth nonprofit
-        with a vision.
+			Stress is omnipresent—and yet finding solutions
+        is more difficult than ever. We are a group of teens that aim to redefine the help you get for mental health through <b>community engagement</b> and <b>centralization</b>.
       </h3>
       <ul className="list-disc pl-4 my-6">
         <li>add intitiatives page</li>

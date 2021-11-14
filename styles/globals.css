@@ -4,12 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 body {
+	background-color: blue;
   font-family: 'Work Sans', sans-serif;
 }
 
+
+
 h1 {
-  font-size: 2.5em;
+  font-size: 2.4em;
   line-height: 1.2em;
 }
 
@@ -22,7 +26,7 @@ h3 {
     line-height: 1.2em;
   }
   h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 }
 
@@ -152,4 +156,14 @@ pre {
 
 .mdx-marker {
   @apply block -mx-4 px-4 bg-gray-100 dark:bg-gray-800 border-l-4 border-blue-500;
+}
+
+.gradient {
+	background-image: linear-gradient(45deg, #6a8bf8, #ff47ff);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
