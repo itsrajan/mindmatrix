@@ -28,12 +28,12 @@ const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
       </main>
       <footer className="py-8">
         <div className="max-w-5xl px-8 mx-auto">
-          Built by{' '}
+          2021{' '}
           <a
             className="text-gray-900 dark:text-white"
-            href="https://twitter.com/huntarosan"
+            href="https://instagram.com/_mindson"
           >
-            Hunter Chang
+            Minds On
           </a>
         </div>
       </footer>

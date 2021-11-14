@@ -13,20 +13,35 @@ type IndexProps = {
 export const Index = ({ posts }: IndexProps): JSX.Element => {
   return (
     <Layout>
-      <h1>Home Page</h1>
-      <p>Next.js starter for your next blog or personal site. Built with:</p>
+      <h1>
+        We are a group of teens that aim to redefine the help you get for mental
+        health through{' '}
+        <a>
+          <u>community engagement</u>
+        </a>{' '}
+        and{' '}
+        <a>
+          <u>centralization</u>
+        </a>
+        .
+      </h1>
+      <h3>
+        In our polarized world, stress is omnipresent—and yet finding solutions
+        is more difficult than ever. We are <b>Minds On</b>, a youth nonprofit
+        with a vision.
+      </h3>
       <ul className="list-disc pl-4 my-6">
-        <li>Next.js</li>
-        <li className="mt-2">Typescript</li>
-        <li className="mt-2">MDX</li>
-        <li className="mt-2">Tailwind CSS</li>
+        <li>add intitiatives page</li>
+        <li className="mt-2">mind matrix post list</li>
+        <li className="mt-2">recruitment</li>
+        <li className="mt-2">team / support us </li>
       </ul>
 
       <a
         href="https://github.com/ChangoMan/nextjs-typescript-mdx-blog"
         className="inline-block px-7 py-3 rounded-md text-white dark:text-white bg-blue-600 hover:bg-blue-700 hover:text-white dark:hover:text-white"
       >
-        Get the source code!
+        test button (idk if i like the style of it)
       </a>
 
       {posts.map((post) => (
