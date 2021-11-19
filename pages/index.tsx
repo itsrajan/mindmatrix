@@ -17,7 +17,7 @@ export const Index = (): JSX.Element => {
         is more difficult than ever. We are a group of teens that aim to redefine the help you get for mental health through <b>community engagement</b> and <b>centralization</b>.
       </h3><br/>
 			<h3>
-		 It is our duty as global citizens to give back to society; mental health support needs to be redesigned before it's too late.
+	It is our duty as global citizens to give back to society; we need to redesign the way we think about our future.
       </h3><br/>
 		<h3>
 		 Within the Peel Region, we are <u>writing articles</u> to raise awareness, <u>redefining the architecture</u> of mental health help, giving a <u>voice to students</u> and partnering with <u>youth organizations</u>.  <br/><br/>
