@@ -33,8 +33,8 @@ const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
             className="text-gray-900 dark:text-white"
             href="https://instagram.com/_mindson"
           >
-            Minds On
-          </a>
+            Minds On<br/>
+          </a>{' '}Opportunities |{' '} Mission |  {' '} Instagram
         </div>
       </footer>
     </>
