@@ -8,7 +8,7 @@ export const Index = (): JSX.Element => {
 				We are <b className="gradient">Minds On</b>, a youth nonprofit
 				with{' '}
 				<a>
-					<u>a vision</u>
+					<u><span className="yuh">a vision</span></u>
 				</a>
 				.
 			</h1>
