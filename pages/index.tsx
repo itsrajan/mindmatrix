@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 import { getAllPosts } from '../lib/api';
 import { PostType } from '../types/post';
 
-export const Index = ({ posts }: IndexProps): JSX.Element => {
+export const Index = (): JSX.Element => {
   return (
     <Layout>
       <h1>
