@@ -27,12 +27,6 @@ export const Index = (): JSX.Element => {
 				We hope you can join us in this change, <br />
 				<i>The Minds On Executive Team</i>
 			</h3>
-
-
-
-
-
-
 		</Layout>
 	);
 };
