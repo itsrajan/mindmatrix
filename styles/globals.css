@@ -56,14 +56,16 @@ u {
   transition: background-size 0.1s ease-in;
   text-decoration-color: transparent;
 	font-weight: 500;
+	cursor: pointer;
+}
+
+
+u:hover {
+  background-size: 100% 88%;
 }
 
 .yuh {
 	font-weight: 600;
-}
-
-u:hover {
-  background-size: 100% 88%;
 }
 
 /* Post styles */

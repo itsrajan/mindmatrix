@@ -14,7 +14,7 @@ export const Index = (): JSX.Element => {
 			</h1>
 			<h3>
 				Stress is omnipresent—and yet finding solutions
-				is more difficult than ever. We are a group of teens that aim to redefine the help you get for mental health through <b>community engagement</b> and <b>centralization</b>.
+				is more difficult than ever. We are a group of teens that aim to redefine the help you get for mental health through <u>community engagement</u> and <u>centralization</u>.
 			</h3><br />
 			<h3>
 				It is our duty as global citizens to give back to society; we need to redesign the way we think about our future.
@@ -25,7 +25,7 @@ export const Index = (): JSX.Element => {
 				A community is defined by the people within it. Minds On is building a world of elegance through mental health by constructing unique pathways for all. <br /><br />
 
 				We hope you can join us in this change, <br />
-				<i>The Minds On Executive Team</i>
+				<i>The Minds On Team</i>
 			</h3>
 		</Layout>
 	);
