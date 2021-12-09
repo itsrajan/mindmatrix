@@ -1,56 +1,21 @@
-import { format, parseISO } from 'date-fns';
-import { GetStaticProps } from 'next';
-import Link from 'next/link';
 import React from 'react';
 import Layout from '../components/Layout';
-import { getAllPosts } from '../lib/api';
-import { PostType } from '../types/post';
 
-type IndexProps = {
-  posts: PostType[];
-};
-
-export const About = ({ posts }: IndexProps): JSX.Element => {
-  return (
-    <Layout
-      customMeta={{
-        title: 'About Minds On',
-      }}
-    >
-      <h1>About Page</h1>
-      <p>Welcome to the about page</p>
-
-			{posts.map((post) => (
-        <article key={post.slug} className="mt-12">
-          <p className="mb-1 text-sm text-gray-500 dark:text-gray-400">
-            {format(parseISO(post.date), 'MMMM dd, yyyy')}
-          </p>
-          <h1 className="mb-2 text-xl">
-            <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
-              <a className="text-gray-900 dark:text-white dark:hover:text-blue-400">
-                {post.title}
-              </a>
-            </Link>
-          </h1>
-          <p className="mb-3">{post.description}</p>
-          <p>
-            <Link as={`/posts/${post.slug}`} href={`/posts/[slug]`}>
-              <a>Read More</a>
-            </Link>
-          </p>
-        </article>
-      ))}
-    </Layout>
-  );
+export const About = (): JSX.Element => {
+	return (
+		<Layout>
+			<h1>
+			Our Story
+			</h1>
+			<h3>
+				In early 2020, billions around the world were in shock. No one could leave their homes and there was evident disregard for the mental health of communities. Funding & support for mental health is practically inexistent; this is when a few students came together and co-founded Minds On. <br/><br/>
+        The first year was... slow. We found it more and more difficult to create actionable change. However, as our team and organization has grown, we are on a mission to develop our community and redesign the infrastructure of mental health support. We have a lot of upcoming initiatives that are in the works, so we kindly ask you to keep your eyes out for upcoming news!<br/><br/>
+        Without our minds, who are we?
+			</h3>
+		</Layout>
+	);
 };
 
 
-export const getStaticProps: GetStaticProps = async () => {
-  const posts = getAllPosts(['date', 'description', 'slug', 'title']);
-
-  return {
-    props: { posts },
-  };
-};
 
 export default About;

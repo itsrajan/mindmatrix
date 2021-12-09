@@ -46,9 +46,6 @@ const PostPage = ({ source, frontMatter }: PostPageProps): JSX.Element => {
         <h1 className="mb-3 text-gray-900 dark:text-white">
           {frontMatter.title}
         </h1>
-        <p className="mb-10 text-sm text-gray-500 dark:text-gray-400">
-          {format(parseISO(frontMatter.date), 'MMMM dd, yyyy')}
-        </p>
         <div className="prose dark:prose-dark">
           <MDXRemote {...source} components={components} />
         </div>

@@ -34,7 +34,7 @@ const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
             href="https://instagram.com/_mindson"
           >
             Minds On<br/>
-          </a>{' '}Opportunities |{' '} Mission |  {' '} Instagram
+          </a>{' '}<a href="https://instagram.com/_mindson">Opportunities</a> |{' '}<a href="https://mindson.dino.icu/about"> Mission</a>
         </div>
       </footer>
     </>
