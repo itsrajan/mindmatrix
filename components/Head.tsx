@@ -22,7 +22,7 @@ const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
       <meta property="og:url" content={`${WEBSITE_HOST_URL}${router.asPath}`} />
       <link rel="canonical" href={`${WEBSITE_HOST_URL}${router.asPath}`} />
       <meta property="og:type" content={meta.type} />
-      <meta property="og:site_name" content="Hunter Chang - Website" />
+      <meta property="og:site_name" content="Minds On" />
       <meta property="og:description" content={meta.description} />
       <meta property="og:title" content={meta.title} />
       <meta property="og:image" content={meta.image} />
