@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import { MetaProps } from '../types/layout';
 
-export const WEBSITE_HOST_URL = 'https://nextjs-typescript-mdx-blog.vercel.app';
+export const WEBSITE_HOST_URL = 'https://mindson.dino.icu';
 
 const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
   const router = useRouter();
@@ -27,6 +27,8 @@ const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
       <meta property="og:title" content={meta.title} />
       <meta property="og:image" content={meta.image} />
       <meta name="twitter:site" content="@_mindson" />
+      <link rel="icon" type="image/png" href='/images/favicon.png' />
+      <link rel="shortcut icon" type="image/png" href='/images/favicon.png' />
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
       <meta name="twitter:image" content={meta.image} />
