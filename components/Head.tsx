@@ -21,6 +21,7 @@ const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
       <meta content={meta.description} name="description" />
       <meta property="og:url" content={`${WEBSITE_HOST_URL}${router.asPath}`} />
       <link rel="canonical" href={`${WEBSITE_HOST_URL}${router.asPath}`} />
+			<link rel="shortcut icon" type="image/png" href="https://file.heyrajan.com/mindsoncursor.png"/>
       <meta property="og:type" content={meta.type} />
       <meta property="og:site_name" content="Minds On" />
       <meta property="og:description" content={meta.description} />
@@ -28,7 +29,6 @@ const Head = ({ customMeta }: { customMeta?: MetaProps }): JSX.Element => {
       <meta property="og:image" content={meta.image} />
       <meta name="twitter:site" content="@_mindson" />
       <link rel="icon" type="image/png" href='/images/favicon.png' />
-      <link rel="shortcut icon" type="image/png" href='/images/favicon.png' />
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
       <meta name="twitter:image" content={meta.image} />
