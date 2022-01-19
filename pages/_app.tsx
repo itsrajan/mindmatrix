@@ -6,10 +6,8 @@ import '../styles/globals.css';
 const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
     <ThemeProvider attribute="class" enableSystem={true} defaultTheme="dark">
-		<KBarProvider>
       <Component {...pageProps} />
-		</KBarProvider>
-    </ThemeProvider>
+    </ThemeProvider> 
   );
 };
 
