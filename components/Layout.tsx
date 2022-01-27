@@ -31,10 +31,10 @@ const Layout = ({ children, customMeta }: LayoutProps): JSX.Element => {
           2021{' '}
           <a
             className="text-gray-900 dark:text-white"
-            href="https://instagram.com/_mindson"
+            href="https://instagram.com/wearemindson"
           >
             Minds On<br/>
-          </a>{' '}<a href="https://instagram.com/_mindson">Opportunities</a> |{' '}<a href="https://mindson.dino.icu/about"> Mission</a>
+          </a>{' '}<a href="/vision">Vision</a> |{' '}<a href="https://instagram.com/wearemindson"> Media</a>
         </div>
       </footer>
     </>
